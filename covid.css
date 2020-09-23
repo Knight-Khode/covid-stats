@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+
+#container{
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    padding: 20px 0;
+}
+
+#form-group{
+    position: absolute;
+    left:3%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#form-group input{
+    width: 70%;
+    padding: 10px 8px;
+    border: solid 1px #ccc;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    outline: none;
+}
+
+#form-group button{
+    border: 1px solid #ccc;
+    padding: 9.5px 0px;
+    width: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #4285f4;
+    font-weight: bolder;
+    outline: none;
+}
+
+#clear{
+    position: absolute;
+    left: 67%;
+}
+
+#clear a{
+    text-decoration: none;
+    color: #80868b;
+}
+
+#side-bar{
+    margin-top: 70px;
+    padding: 20px 40px;
+    width: 20vw;
+}
+
+#side-bar h1{
+    font-size: 16px;
+    color: #fff;
+    background-color:#d24040;
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#side-bar h1 ion-icon{
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+#side-bar  p{
+    font-size: 18px;
+    padding-bottom: 95px;
+}
+
+#side-bar  ul{
+    list-style: none;
+}
+
+#side-bar  ul li{
+    padding-bottom: 30px;
+}
+
+#side-bar  ul li a{
+    text-decoration: none;
+    color: #3c4043;
+    font-size: 15px;
+}
+
+#statistics{
+    margin-top: 90px;
+    
+}
+
+#statistics h2{
+    padding-bottom: 20px;
+}
+
+#statistics #stats{
+    width: 40vw;
+    border: #ccc 1px solid;
+    border-radius: 5px;
+  
+    padding:40px 30px 20px 30px;
+}
+
+#statistics #stats #body #country{
+   display: flex;
+   justify-content: center;
+}
+
+#statistics #stats #body #country p{
+    border: 1px solid #d2e3fc;
+    display: inline-block;
+    background-color: #e8f0fe;
+    color: #1967d2;
+    padding: 8px 10px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#statistics #stats #body ul{
+   margin-top: 40px;
+   list-style: none;
+}
+
+#statistics #stats #body ul li{
+    padding: 15px 0;
+    border-bottom: 1px dotted #ccc;
+    display: flex;
+    justify-content: space-between
+}
+
+#main{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+#health-tips{
+    margin-top: 90px;
+    width: 32vw;
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+#health-tips #main-heading{
+    font-size: 1.3rem;
+    margin-bottom: 24px;
+}
+
+#health-tips #tips{
+    padding:40px 30px 20px 30px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+
+#health-tips #tips #buttons{
+    background-color: #f9f9f9;
+    border: 1px solid #DFE1E5;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#health-tips #tips #buttons a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #000;
+    font-size: 14px;
+}
+
+#health-tips #tips p{
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+#health-tips #tips h3{
+    padding: 15px 0;
+}

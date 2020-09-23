@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="covid.css">
+</head>
+<body>
+    <header>
+        <div id="container">
+            <form id="search-form">
+                <div id="form-group">
+                    <input type="text" id="input">
+                    <button><ion-icon name="search-outline" id="search"></ion-icon></button>
+                    <div id="clear">
+                        <a href="#" id="clear-field">X</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </header>
+    <div id="main">
+        <section id="side-bar">
+            <h1><ion-icon name="warning-outline"></ion-icon>Covid-19 Alert</h1>
+            <p>Coronavirus disease</p>
+            <ul>
+            <li><a href="#">Overview</a></li> 
+            <li><a href="#">Preventions</a></li> 
+            <li><a href="#">Treatment</a></li> 
+            <li><a href="#">Symptoms</a></li> 
+            <li><a href="#">News</a></li> 
+            </ul>
+        </section>
+        <section id="statistics">
+            <h2>Statistics</h2>
+            <div id="stats">
+                <div id="body">
+                    <div id="country">
+                        <p id="country-name">Ghana </p>
+                    </div> 
+                    <ul>
+                        <li>
+                        <p>New Cases:</p>  
+                        <span class="value" id="new">1000</span>
+                        </li>
+                        <li>
+                            <p>Active Cases:</p>  
+                            <span class="value" id="active">1000</span>
+                        </li>
+                        <li>
+                            <p>Death:</p>  
+                            <span class="value" id="death">1000</span>
+                        </li>
+                        <li>
+                            <p>Recovered:</p>  
+                            <span class="value" id="recovered">1000</span>
+                        </li>
+                        <li>
+                            <p>Total Cases:</p>  
+                            <span class="value" id="total">1000</span>
+                        </li>
+                        <li>
+                            <p>Critical:</p>  
+                            <span class="value" id="critical">1000</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="health-tips">
+            <h3 id="main-heading">Health Tips</h3>
+            <div id="tips">
+                <div id="buttons">
+                    <a href="#" id="symptoms">Symptoms</a>
+                </div>
+                <p>COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization.</p>
+                <h3>Most common symptoms:</h3>
+                <ul>
+                    <li>fever</li>
+                    <li>dry cough</li>
+                    <li>tiredness</li>
+                </ul>
+                <h3>Less common symptoms:</h3>
+                <ul>
+                    <li>aches and pains</li>
+                    <li>sore throat</li>
+                    <li>headache</li>
+                </ul>
+                <h3>Serious symptoms</h3>
+                <ul>
+                    <li>difficulty breathing or shortness of breath</li>
+                    <li>chest pain or pressure</li>
+                    <li>loss of speech or movement</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <script src="covid.js"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+</body>
+</html>
